@@ -1,0 +1,12 @@
+{
+    "extends": ["xo", "xo-react"],
+    "rules": {
+        "indent": ["error", 2],
+        "space-before-function-paren": ["error", "always"],
+        "comma-dangle": ["error", "always-multiline"],
+        "object-curly-spacing": ["error", "always"],
+        "quote-props": ["error", "consistent"],
+        "func-names": ["error", "as-needed"],
+        "react/prop-types": 0,
+    },
+}
