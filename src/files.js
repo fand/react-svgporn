@@ -1,4 +1,4 @@
-// Extracted from https: //raw.githubusercontent.com/gilbarbara/logos/app/app/logos.json
+// Extracted from https://raw.githubusercontent.com/gilbarbara/logos/app/app/logos.json
 module.exports = {
   '100tb': ['100tb.svg'],
   '500px': ['500px.svg'],

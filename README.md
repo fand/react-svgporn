@@ -23,10 +23,10 @@ ReactDOM.render(
 yields
 
 ```
-<img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/react.svg" width="320">
+<img src="https://cdn.svgporn.com/logos/react.svg" width="320">
 ```
 
-<img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/react.svg" width="320">
+<img src="https://cdn.svgporn.com/logos/react.svg" width="320">
 
 
 If there are multiple logos you can use `type` to filter them.
@@ -39,7 +39,7 @@ If there are multiple logos you can use `type` to filter them.
 `name` is case-ignorant and matched by levenstein distance.
 
 ```js
-// These 3 logo renders same image!
+// These 3 logos renders the same image!
 <Logo name="MongoDB"/>
 <Logo name="mongodb"/>
 <Logo name="mongo"/>

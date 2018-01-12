@@ -5,12 +5,12 @@ const render = require('enzyme').render;
 
 test('<Logo/> renders <img> element', t => {
   const wrapper = render(<Logo name="React" width="100" alt="alt" title="title"/>);
-  t.is(wrapper.html(), '<img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/react.svg" name="React" width="100" alt="alt" title="title">');
+  t.is(wrapper.html(), '<img src="https://cdn.svgporn.com/logos/react.svg" name="React" width="100" alt="alt" title="title">');
 });
 
 test('type can be used to filter multiple images', t => {
   const wrapper = render(<Logo name="Github" type="octocat"/>);
-  t.is(wrapper.html(), '<img src="https://s3-us-west-2.amazonaws.com/svgporn.com/logos/github-octocat.svg" name="Github" type="octocat">');
+  t.is(wrapper.html(), '<img src="https://cdn.svgporn.com/logos/github-octocat.svg" name="Github" type="octocat">');
 });
 
 test('name is case-ignorant', t => {

@@ -28,5 +28,5 @@ module.exports = function Logo (props) {
     return null;
   }
 
-  return <img src={`https://s3-us-west-2.amazonaws.com/svgporn.com/logos/${file}`} {...props} name={suggestedName}/>;
+  return <img src={`https://cdn.svgporn.com/logos/${file}`} {...props} name={suggestedName}/>;
 };
