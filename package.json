@@ -1,7 +1,7 @@
 {
   "name": "react-svgporn",
   "description": "Markdown to Hatena Syntax converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "fand <fand@gmork.in>",
   "ava": {
     "require": "babel-register",
